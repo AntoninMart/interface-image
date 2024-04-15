@@ -1,0 +1,22 @@
+<section>
+    <p-card header="Assemblons les sons">
+        <p-table [value]="dossier" [tableStyle]="{ 'min-width': '50rem' }">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th>Numéro</th>
+                    <th>Nom</th>
+                    <th>Actions</th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-dossier>
+                <tr>
+                    <td>{{ dossier.id }}</td>
+                    <td>{{ dossier.nomDossier }}</td>
+                    <td class="flex gap-2">
+                        <button (click)="playDossier(dossier.id)" pButton pRipple label="Jouer" class="p-button-success" icon="pi pi-play"></button>
+                    </td>
+                </tr>
+            </ng-template>
+        </p-table>
+    </p-card>
+</section>

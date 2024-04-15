@@ -1,0 +1,12 @@
+
+
+<section class="flex flex-column gap-2">
+    <p-toolbar>
+        <div class="p-toolbar-group-center">
+            <p-button (onClick)="randomImage()" label="Nouvelle image" icon="pi pi-refresh" iconPos="right" severity="success"></p-button>
+        </div>
+    </p-toolbar>
+    <p-card class="flex flex-column align-items-center justify-content-center">
+        <img src="{{imageShow}}" alt="{{imageShow}}" class="w-7">
+    </p-card>
+</section>
