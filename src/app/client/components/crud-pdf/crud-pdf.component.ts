@@ -100,7 +100,7 @@ export class CrudPdfComponent implements OnInit {
           "cou.png",
           "bon.png",
           "ton.png",
-          "con.png",
+          "kon.png",
           "ban.png",
           "can.png",
           "tan.png"
