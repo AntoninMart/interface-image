@@ -17,6 +17,7 @@ export class CrudPdfComponent implements OnInit {
   dossier: {
     id: number,
     nomDossier: string,
+    nomAfficher: string,
     images: string[]
   }[]
 
@@ -26,6 +27,7 @@ export class CrudPdfComponent implements OnInit {
     this.dossier = [
       {
         "id": 1,
+        "nomAfficher": "P5S1",
         "nomDossier": "semaine 1",
         "images": [
           "ja.png",
@@ -50,6 +52,7 @@ export class CrudPdfComponent implements OnInit {
       },
       {
         "id": 2,
+        "nomAfficher": "P5S2",
         "nomDossier": "semaine 2",
         "images": [
           "pa.png",
@@ -76,6 +79,7 @@ export class CrudPdfComponent implements OnInit {
       },
       {
         "id": 3,
+        "nomAfficher": "P5S3",
         "nomDossier": "semaine 3",
         "images": [
           "ba.png",
@@ -108,6 +112,7 @@ export class CrudPdfComponent implements OnInit {
       },
       {
         "id": 4,
+        "nomAfficher": "P5S4",
         "nomDossier": "semaine 4",
         "images": [
           "da.png",
@@ -131,6 +136,7 @@ export class CrudPdfComponent implements OnInit {
       },
       {
         "id": 5,
+        "nomAfficher": "P4S1",
         "nomDossier": "semaine 5",
         "images": [
           "ja.jpg",
