@@ -176,7 +176,69 @@ export class CrudPdfComponent implements OnInit {
           "zu.jpg",
           "zé.jpg"
          ]
-      }
+      },
+      {
+        "id": 5,
+        "nomAfficher": "P4S3",
+        "nomDossier": "semaine 6",
+        "images": [
+          "ba.jpg",
+          "ban.jpg",
+          "be.jpg",
+          "bi.jpg",
+          "bin.jpg",
+          "bo.jpg",
+          "bon.jpg",
+          "bou.jpg",
+          "bu.jpg",
+          "bé.jpg",
+          "ca.jpg",
+          "can.jpg",
+          "co.jpg",
+          "conn.jpg",
+          "cou.jpg",
+          "cu.jpg",
+          "ta.jpg",
+          "tan.jpg",
+          "te.jpg",
+          "ti.jpg",
+          "tin.jpg",
+          "to.jpg",
+          "ton.jpg",
+          "tou.jpg",
+          "tu.jpg",
+          "té.jpg"
+        ]
+      },
+      {
+        "id": 5,
+        "nomAfficher": "P4S6",
+        "nomDossier": "semaine 7",
+        "images": [
+          "wa.jpg",
+          "wan.jpg",
+          "we.jpg",
+          "wi.jpg",
+          "win.jpg",
+          "wo.jpg",
+          "woi.jpg",
+          "won.jpg",
+          "wou.jpg",
+          "wu.jpg",
+          "wé.jpg",
+          "xa.jpg",
+          "xan.jpg",
+          "xe.jpg",
+          "xi.jpg",
+          "xin.jpg",
+          "xo.jpg",
+          "xoi.jpg",
+          "xon.jpg",
+          "xou.jpg",
+          "xu.jpg",
+          "xé.jpg"
+        ]
+      }      
     ]
   }
 
