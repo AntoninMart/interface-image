@@ -178,7 +178,7 @@ export class CrudPdfComponent implements OnInit {
          ]
       },
       {
-        "id": 5,
+        "id": 6,
         "nomAfficher": "P4S3",
         "nomDossier": "semaine 6",
         "images": [
@@ -211,7 +211,31 @@ export class CrudPdfComponent implements OnInit {
         ]
       },
       {
-        "id": 5,
+        "id": 8,
+        "nomAfficher": "P4S4",
+        "nomDossier": "semaine 8",
+        "images": [
+          "da.jpg",
+          "dan.jpg",
+          "de.jpg",
+          "di.jpg",
+          "din.jpg",
+          "do.jpg",
+          "doi.jpg",
+          "don.jpg",
+          "dou.jpg",
+          "du.jpg",
+          "dé.jpg",
+          "ga.jpg",
+          "gan.jpg",
+          "go.jpg",
+          "gon.jpg",
+          "gou.jpg",
+          "gu.jpg"
+        ]
+      },         
+      {
+        "id": 7,
         "nomAfficher": "P4S6",
         "nomDossier": "semaine 7",
         "images": [
@@ -238,7 +262,7 @@ export class CrudPdfComponent implements OnInit {
           "xu.jpg",
           "xé.jpg"
         ]
-      }      
+      }
     ]
   }
 
