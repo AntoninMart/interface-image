@@ -14,6 +14,30 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+## Deployment (GitHub Pages)
+
+Pour déployer le site sur GitHub Pages, suivez ces étapes :
+
+1. **Build du projet avec le bon base-href** :
+   ```bash
+   ng build --configuration production --base-href /interface-image/
+   ```
+
+2. **Copier index.html vers 404.html** (pour gérer le routage SPA) :
+   ```bash
+   copy dist\sakai-ng\index.html dist\sakai-ng\404.html
+   ```
+
+3. **Déployer sur GitHub Pages** :
+   ```bash
+   npx angular-cli-ghpages --dir=dist/sakai-ng
+   ```
+
+4. **Accéder au site** :
+   Le site est disponible à l'adresse : https://antoninmart.github.io/interface-image/
+
+> **Note** : Le déploiement peut prendre quelques minutes avant d'être visible. Si vous rencontrez des erreurs 404, videz le cache de votre navigateur ou ouvrez le site en navigation privée.
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
